@@ -53,7 +53,7 @@ ax.add_patch(duct_circle)
 
 # Draw cables
 for (x, y) in cables:
-    cable_circle = plt.Circle((x, y), cable_radius, facecolor='orange', edgrcolor ='black', linewidth=0.8)
+    cable_circle = plt.Circle((x, y), cable_radius, facecolor='orange', edgecolor ='black', linewidth=0.8)
     ax.add_patch(cable_circle)
 
 # Add scale line (leader) for cable size
